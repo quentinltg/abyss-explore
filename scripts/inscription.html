@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css" />
+    <title>Inscription</title>
+  </head>
+
+  <body>
+
+    <!-- En-tête -->
+    <header>
+      <a href="../index.html"><img src="../media/logo.png" alt="logo" /></a>
+      <menu>
+        <li><a href="../index.html">ACCUEIL</a></li>
+        <li><a href="services.html">SERVICES</a></li>
+        <li><a href="equipe.html">EQUIPE</a></li>
+        <li><a href="entreprise.html">L'ENTREPRISE</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+        <li><a href="inscription.html"><img src="../media/iconeCompte.jpg" alt="account"></a></li>
+      </menu>
+    </header>
+
+    <hr class="barre-horizontale">
+
+    <!-- Formulaire -->
+    <section class="page-membre">
+      <section class="formulaire">
+        <form class="inscription">
+          <p class="formulaire-titre">INSCRIPTION</p>
+          <hr>
+          <div class="nom-champs">
+            <div>
+              <label for="nom">Nom</label>
+              <input type="text" id="nom" name="nom" required>
+            </div>
+            <div>
+              <label for="prenom">Prénom</label>
+              <input type="text" id="prenom" name="prenom" required>
+            </div>
+          </div>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+          <label for="mdp">Mot de passe</label>
+          <input type="password" id="mdp" name="mdp" required>
+          <label for="date">Date de Naissance</label>
+          <input type="date" id="date" name="date" required>
+          <p id="genre">Genre</p>
+          <div class="genre">
+            <input type="radio" id="homme" name="genre" value="homme" checked />
+            <label for="homme">Homme</label>
+            <input type="radio" id="femme" name="genre" value="femme" />
+            <label for="femme">Femme</label>
+            <input type="radio" id="autre" name="genre" value="autre" />
+            <label for="autre">Autre</label>
+          </div>
+          <div class="pays">
+            <label for="pays-select">Pays:</label>
+            <select name="pays" id="pays-select">
+              <option value="">Votre pays</option>
+              <option value="angleterre">Angleterre</option>
+              <option value="allemagne">Allemagne</option>
+              <option value="belgique">Belgique</option>
+              <option value="espagne">Espagne</option>
+              <option value="france">France</option>
+              <option value="luxembourg">Luxembourg</option>
+            </select>
+          </div>
+          <label for="site">Que recherchez-vous ? :</label>
+          <textarea id="site" name="site" required></textarea>
+          <div class="bouton">
+            <div>
+              <input type="submit" value="S'inscrire">
+            </div>
+            <div>
+              <input type="reset" value="Clear">
+            </div>
+          </div>
+          <p class="connect">Vous avez déjà un compte ? <a href="connexion.html" class="connect-lien">Se connecter</a></p>
+        </form>
+      </section>
+
+      <!-- Vidéo -->
+      <video width="920" height="500" controls>
+        <source src="../media/illustration.mp4" type=video/mp4>
+      </video>
+    </section>
+
+    <hr class="barre-horizontale">
+
+    <!-- Pied de page -->
+    <footer>
+      <div class="footer-section">
+          <ul>
+              <li class="bold">À propos</li>
+              <li><a href="#">Offres d'emploi</a></li>
+              <li><a href="#">Mobile</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Mentions légales</a></li>
+              <li><a href="#">Notre fonctionnement</a></li>
+          </ul>
+      </div>
+      <div class="footer-section">
+          <ul>
+              <li class="bold">Contact</li>
+              <li><a href="#">Aide/FAQ</a></li>
+              <li><a href="#">Presse</a></li>
+              <li><a href="#">Affiliation</a></li>
+              <li><a href="#">Propriétaires d'hôtels</a></li>
+          </ul>
+      </div>
+      <div class="footer-section">
+          <ul>
+              <li class="bold">Plus</li>
+              <li><a href="#">Frais de compagnies</a></li>
+              <li><a href="#">Compagnies aériennes</a></li>
+              <li><a href="#">Astuces meilleurs tarifs</a></li>
+              <li><a href="#">Badges et certificats</a></li>
+          </ul>
+      </div>
+      <div class="vertical-line"></div>
+      <div class="footer-section">
+          <ul class="footer-right">
+              <li><a href="#">Confidentialité</a></li>
+              <li><a href="#">Conditions générales</a></li>
+              <li>©2023 ABYSS EXPLORE</li>
+          </ul>
+      </div>
+    </footer>  
+  </body>
+</html>
