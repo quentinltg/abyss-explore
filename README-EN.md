@@ -1,6 +1,6 @@
 i<h1 align="center">
   <br>
-  <img src="https://github.com/axelriv62/abyss-explore/blob/main/media/logo-textless.png" width="200"></a>
+  <img src="https://github.com/quentinltg/abyss-explore/blob/main/media/logo-textless.png" width="200"></a>
   <br>
   <b>Abyss Explore</b>
   <br>
