@@ -1,4 +1,4 @@
-i<h1 align="center">
+<h1 align="center">
   <br>
   <img src="https://github.com/quentinltg/abyss-explore/blob/main/media/logo-textless.png" width="200"></a>
   <br>
